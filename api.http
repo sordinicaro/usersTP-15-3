@@ -1,0 +1,31 @@
+### valor inicial
+
+GET http://localhost:2020
+
+### ver version
+
+GET http://localhost:2020/api
+
+### ver users
+
+GET http://localhost:2020/api/users
+
+### crear user
+
+POST http://localhost:2020/api/register
+Content-Type: application/json
+
+{
+    "username": "paezailen",
+    "password": "hola123",
+    "email": "paezailen@gmail.com"
+}
+
+### login 
+ POST  http://localhost:2020/api/login
+ 
+Content-Type: application/json
+{
+"username": "tativega",
+"password": "test123"
+}
