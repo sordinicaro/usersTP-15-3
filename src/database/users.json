@@ -1,15 +1,27 @@
 [
-  {},
-  {
-    "username": "paezailen",
-    "password": "hola123",
-    "email": "paezailen@gmail.com",
-    "token": "123"
-  },
-  {
-    "username": "tativega",
-    "password": "test123",
-    "email": "tati@gmail.com",
-    "token": ""
-  }
+    {},
+    {
+        "username": "paezailen",
+        "password": "hola123",
+        "email": "paezailen@gmail.com",
+        "token": "123"
+    },
+    {
+        "username": "tativega",
+        "password": "test123",
+        "email": "tati@gmail.com",
+        "token": ""
+    },
+    {
+        "username": "carolina",
+        "password": "chau123",
+        "email": "sordinicaro1@gmail.com",
+        "token": ""
+    },
+    {
+        "username": "carolina",
+        "password": "chau123",
+        "email": "sordinicaro1@gmail.com",
+        "token": ""
+    }
 ]

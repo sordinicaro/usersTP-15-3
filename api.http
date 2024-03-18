@@ -12,20 +12,28 @@ GET http://localhost:2020/api/users
 
 ### crear user
 
-POST http://localhost:2020/api/register
+POST http://localhost:2020/api/users/register
 Content-Type: application/json
 
 {
-    "username": "paezailen",
-    "password": "hola123",
-    "email": "paezailen@gmail.com"
+    "username": "elisa",
+    "password": "chau124",
+    "email": "sordinicaro12@gmail.com"
 }
 
-### login 
- POST  http://localhost:2020/api/login
- 
+
+### login
+POST http://localhost:2020/api/login 
 Content-Type: application/json
 {
 "username": "tativega",
 "password": "test123"
+}
+### Logout
+DELETE http://localhost:2020/api/logout
+Content-Type: application/json
+
+{
+  "username": "tativega",
+   "token": "123"
 }

@@ -32,6 +32,20 @@ abstract class UserModel {
 
 
   }
+  static logoutUser = (object:any) =>{
+    const { username } = object;
+  const user:any = users.find((u) => u.username === username);
+
+  
+  if (!user) return 404;
+  
+
+    user.token = "";
+
+    writeFileSync("./src/database/users.json", users);
+
+   return({ message: "User logout" });
+  }  
 }
 
 export { UserModel }
